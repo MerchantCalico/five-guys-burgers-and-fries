@@ -70,5 +70,4 @@ jobs:
           CHANGELOG: ${{ github.event.release.body }}
         if: ${{ github.event_name == 'release' && github.event.action == 'published' && env.MODRINTH_TOKEN != '' }}
         run: |
-          ./gradlew --no-configuration-cache modrinth
-          ./gradlew --no-configuration-cache modrinthSyncBody
+          ./gradlew --no-configuration-cache publishModrinth
