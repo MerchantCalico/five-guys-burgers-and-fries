@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fiveguysburgersandfries:item/burger_and_fries"
+	}
+}
