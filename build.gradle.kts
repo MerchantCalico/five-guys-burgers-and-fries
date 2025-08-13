@@ -59,8 +59,8 @@ tasks {
 
 java {
 	withSourcesJar()
-	sourceCompatibility = JavaVersion.VERSION_21
-	targetCompatibility = JavaVersion.VERSION_21
+	sourceCompatibility = JavaVersion.toVersion(Properties.JAVA_VERSION)
+	targetCompatibility = JavaVersion.toVersion(Properties.JAVA_VERSION)
 }
 
 

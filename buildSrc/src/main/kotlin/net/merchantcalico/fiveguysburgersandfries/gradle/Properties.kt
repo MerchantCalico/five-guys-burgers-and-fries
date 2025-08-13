@@ -4,9 +4,7 @@ object Properties {
 	const val MOD_VERSION = "1.0.0"
 	const val JAVA_VERSION = 21
 
-	const val GROUP = "net.merchantcalico"
 	const val MOD_NAME = "5 Guys (Burgers and Fries)"
-	const val ARCHIVES_NAME = "5GuysBurgersAndFries"
 	const val MOD_ID = "fiveguysburgersandfries"
 	const val MOD_AUTHOR = "MerchantCalico"
 	const val DESCRIPTION = "Adds a burger and fries worth five guys when you eat it."
