@@ -1,3 +1,5 @@
 {
-	"item.fiveguysburgersandfries.burger_and_fries"
+	"item.fiveguysburgersandfries.burger_and_fries": "Burger and Fries",
+	"advancements.husbandry.fiveguysburgersandfries.burger_and_fries.title": "Five Guys: Burgers and Fries",
+	"advancements.husbandry.fiveguysburgersandfries.burger_and_fries.description": "It really did cost five guys to craft it!"
 }

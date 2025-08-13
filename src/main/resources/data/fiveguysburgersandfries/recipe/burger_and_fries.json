@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"B": "minecraft:bread",
+		"S": "minecraft:cooked_beef",
+		"P": "minecraft:baked_potato"
+	},
+	"pattern": [
+		"SSB",
+		"SSP",
+		"BSP"
+	],
+	"result": {
+		"count": 1,
+		"id": "fiveguysburgersandfries:burger_and_fries"
+	}
+}

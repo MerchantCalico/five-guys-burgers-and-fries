@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "burger_and_fries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fiveguysburgersandfries:burger_and_fries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.fiveguysburgersandfries.burger_and_fries.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "fiveguysburgersandfries:burger_and_fries"
+    },
+    "title": {
+      "translate": "advancements.husbandry.fiveguysburgersandfries.burger_and_fries.title"
+    }
+  },
+  "requirements": [
+    [
+      "burger_and_fries"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}
