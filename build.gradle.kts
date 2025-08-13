@@ -8,7 +8,7 @@ plugins {
 }
 
 version = "${Properties.MOD_VERSION}+${libs.versions.minecraft.get()}"
-base.archivesName = "S"
+base.archivesName = Properties.MOD_ID
 
 repositories {
 	maven("https://maven.parchmentmc.org") {
