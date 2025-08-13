@@ -1,14 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "${modId}",
+	"id": "${mod_id}",
 	"version": "${version}",
-	"name": "${modName}",
-	"description": "${modDescription}",
+	"name": "${mod_name}",
+	"description": "${mod_description}",
 	"authors": [
-		"${authors}"
-	],
-	"contributors": [
-		"${contributors}"
+		"${author}"
 	],
 	"contact": {
 		"homepage": "${homepage}",
@@ -16,20 +13,20 @@
 		"sources": "${sources}"
 	},
 	"license": "${license}",
-	"icon": "assets/${modId}/icon.png",
+	"icon": "assets/${mod_id}/icon.png",
 	"mixins": [
-		"${modId}.mixins.json"
+		"${mod_id}.mixins.json"
 	],
 	"depends": {
-		"minecraft": ">=${mc}",
-		"fabricloader": ">=${fl}",
-		"fabric-api": ">=${fapi}"
+		"minecraft": "${minecraft_range}",
+		"fabricloader": "${fabric_loader_range}",
+		"fabric-api": "*"
 	},
 	"suggests": {
 	},
 	"entrypoints": {
 		"main": [
-			"io.github.username.modid.ModId"
+			"net.merchantcalico.fiveguysburgersandfries.FiveGuysBurgersAndFries"
 		],
 		"client": [
 		]
