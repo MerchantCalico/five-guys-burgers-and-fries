@@ -29,6 +29,7 @@
 			"net.merchantcalico.fiveguysburgersandfries.FiveGuysBurgersAndFries"
 		],
 		"client": [
+			"net.merchantcalico.fiveguysburgersandfries.client.FiveGuysBurgersAndFriesClient"
 		]
 	}
 }
